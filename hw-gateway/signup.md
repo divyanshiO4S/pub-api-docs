@@ -36,8 +36,17 @@
   "success": true,
   "data": {
     "authToken": "eyJhbG1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyNzgxMjM5Nzg5NzgxMjM3OTgiLCJkZXZpY2VJZCI6Ik5hdmlzaW9uIn0.Gogge1r4YSi3QETUt78zMniPdLB9BBihqE",
-    "isProfileCreated": false
-  },
-  "many": false
+    "isAlreadyRegistered": false
+  }
+}
+```
+### In case user with given phone number has registration completed
+```json
+{
+  "success": true,
+  "data": {
+    "authToken": "eyJhbG1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyNzgxMjM5Nzg5NzgxMjM3OTgiLCJkZXZpY2VJZCI6Ik5hdmlzaW9uIn0.Gogge1r4YSi3QETUt78zMniPdLB9BBihqE",
+    "isAlreadyRegistered": false
+  }
 }
 ```

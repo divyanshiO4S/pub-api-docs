@@ -37,85 +37,89 @@ Content-Type: application/json
 
 ```json
 {
-  "scans": [
-    {
-      "uid": "e4af8371-412e-495b-8f25-05dd501fd5e1",
-      "product": {
-        "uid": 766931923918,
-        "serialNo": 19101587657,
-        "encoding": "http://localhost:3001/v/e/1.2.8-nBhIs.1Z",
-        "batchId": "some-batch-id",
+  "success": true,
+  "data": {
+    "scans": [
+      {
+        "uid": "e4af8371-412e-495b-8f25-05dd501fd5e1",
+        "product": {
+          "uid": 766931923918,
+          "serialNo": 19101587657,
+          "encoding": "http://localhost:3001/v/e/1.2.8-nBhIs.1Z",
+          "batchId": "some-batch-id",
 
-        "sku": {
-          "code": "honeywell-genetron-404h",
-          "name": "Honeywell Genetron 404 H",
-          "description": "This is a honeywell product made in USA",
-          "images": {
-            "thumbnail": "https://o4s.io/image/path1/img.png",
-            "high": "https://o4s.io/image/path1/img.png",
-            "medium": "https://o4s.io/image/path1/img.png"
-          },
+          "sku": {
+            "code": "honeywell-genetron-404h",
+            "name": "Honeywell Genetron 404 H",
+            "description": "This is a honeywell product made in USA",
+            "images": {
+              "thumbnail": "https://o4s.io/image/path1/img.png",
+              "high": "https://o4s.io/image/path1/img.png",
+              "medium": "https://o4s.io/image/path1/img.png"
+            },
 
-          "expiry": 1544692724327,
+            "expiry": 1544692724327,
 
-          "company": {
-            "code": "honeywell",
-            "numericCode": 19
-          },
-          "isActivated": true
-        }
+            "company": {
+              "code": "honeywell",
+              "numericCode": 19
+            },
+            "isActivated": true
+          }
+        },
+
+        "status": {
+          "code": "VERIFIED",
+          "label": "Verified",
+          "text": "Verified Original Product",
+          "subText": "This product has already been verified by you"
+        },
+
+        "isExpired": false,
+
+        "timestamp": 1544692724327
       },
+      {
+        "uid": "e4af8371-412e-495b-8f25-05dd501fd5e1",
+        "product": {
+          "uid": 766931923918,
+          "serialNo": 19101587657,
+          "encoding": "http://localhost:3001/v/e/1.2.41Dwt2H.1Z",
+          "batchId": "some-batch-id",
 
-      "status": {
-        "code": "VERIFIED",
-        "label": "Verified",
-        "text": "Verified Original Product",
-        "subText": "This product has already been verified by you"
-      },
+          "sku": {
+            "code": "honeywell-genetron-404h",
+            "name": "Honeywell Genetron 404 H",
+            "description": "This is a honeywell product made in USA",
+            "images": {
+              "thumbnail": "https://o4s.io/image/path1/img.png",
+              "high": "https://o4s.io/image/path1/img.png",
+              "medium": "https://o4s.io/image/path1/img.png"
+            },
 
-      "isExpired": false,
+            "expiry": 1544692724327,
 
-      "timestamp": 1544692724327
-    },
-    {
-      "uid": "e4af8371-412e-495b-8f25-05dd501fd5e1",
-      "product": {
-        "uid": 766931923918,
-        "serialNo": 19101587657,
-        "encoding": "http://localhost:3001/v/e/1.2.41Dwt2H.1Z",
-        "batchId": "some-batch-id",
+            "company": {
+              "code": "honeywell",
+              "numericCode": 19
+            },
+            "isActivated": true
+          }
+        },
 
-        "sku": {
-          "code": "honeywell-genetron-404h",
-          "name": "Honeywell Genetron 404 H",
-          "description": "This is a honeywell product made in USA",
-          "images": {
-            "thumbnail": "https://o4s.io/image/path1/img.png",
-            "high": "https://o4s.io/image/path1/img.png",
-            "medium": "https://o4s.io/image/path1/img.png"
-          },
+        "status": {
+          "code": "VERIFIED",
+          "label": "Verified",
+          "text": "Verified Original Product",
+          "subText": "This product has already been verified by you"
+        },
 
-          "expiry": 1544692724327,
+        "isExpired": false,
 
-          "company": {
-            "code": "honeywell",
-            "numericCode": 19
-          },
-          "isActivated": true
-        }
-      },
-
-      "status": {
-        "code": "VERIFIED",
-        "label": "Verified",
-        "text": "Verified Original Product",
-        "subText": "This product has already been verified by you"
-      },
-
-      "isExpired": false,
-
-      "timestamp": 1544692724327
-    }
-  ]
+        "timestamp": 1544692724327
+      }
+    ]
+  }
+  
 }
 ```

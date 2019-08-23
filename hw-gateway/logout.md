@@ -28,12 +28,12 @@ authToken : eyJhbG1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyN
 
 ---
 
-```
+```json
 {
-    success : true,
-    data : {
-      isLoggedOut : true
+    "success" : true,
+    "data" : {
+      "isLoggedOut" : true
     },
-    many : false
+    "many" : false
 }
 ```

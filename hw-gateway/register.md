@@ -40,38 +40,35 @@ authToken : eyJhbG1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyN
 
 ---
 
-```
+```json
 {
-    success : true,
-    data : {
-      isAlreadyRegistered : false
-    },
-    many : false
+    "success" : true,
+    "data" : {
+      "isAlreadyRegistered" : false
+    }
+    
 }
 ```
 
-## Error Response in case the user is already registered with a different user type
+## Error Response (A) in case the user is already registered.
 
-```
+```json
 {
-    success : false,
-    data : {
-      isAlreadyRegistered : true,
-      expectedUserType : "CONTRACTOR"
-    },
-    many : false
+    "success" : false,
+    "data" : {
+      "isAlreadyRegistered" : true,
+    }
 }
 ```
 
-## Error Response in case the company provided in the request body is not an exact match in the database
+## Error Response (B) in case the company provided in the request body is not an exact match in the database
 
-```
+```json
 {
-    success : false,
-    data : {
-      isAlreadyRegistered : false,
-      didYouMeanCompany : "Doe Traders"
-    },
-    many : false
+    "success" : false,
+    "data" : {
+      "isAlreadyRegistered" : false,
+      "didYouMeanCompany" : "Doe Traders"
+    }
 }
 ```
