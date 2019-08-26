@@ -26,13 +26,13 @@ authToken : eyJhbG1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyN
 
 #### Body :
 
-```
+```json
 {
-    type : "TRADER",
-    name : "John Doe",
-    companyName : "Doe Trader",
-    designation : "Store Manager",
-    email : "john.doe@test.com",
+    "type" : "TRADER",
+    "name" : "John Doe",
+    "companyName" : "Doe Trader",
+    "designation" : "Store Manager",
+    "email" : "john.doe@test.com",
 }
 ```
 
@@ -42,22 +42,20 @@ authToken : eyJhbG1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyN
 
 ```json
 {
-    "success" : true,
-    "data" : {
-      "isAlreadyRegistered" : false
-    }
+  "success" : true,
+  "data" : {
+    "isProfileComplete" : true,
+    "user": {
+      "type" : "TRADER",
+      "name" : "John Doe",
+      "companyName" : "Doe Trader",
+      "designation" : "Store Manager",
+      "email" : "john.doe@test.com",
+    },
+    "accessToken": "eyJhbIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyNzgxMasjdhjkhde33M3OTgiLCJkZXZpY2VJZCI6Ik5hdmlzaW9uIn0.Gogge1r4YSi3QETUt79BBihqE",
+
+  }
     
-}
-```
-
-## Error Response (A) in case the user is already registered.
-
-```json
-{
-    "success" : false,
-    "data" : {
-      "isAlreadyRegistered" : true,
-    }
 }
 ```
 
@@ -67,8 +65,7 @@ authToken : eyJhbG1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyN
 {
     "success" : false,
     "data" : {
-      "isAlreadyRegistered" : false,
-      "didYouMeanCompany" : "Doe Traders"
+      "suggestedCompanyName" : "Doe Traders"
     }
 }
 ```

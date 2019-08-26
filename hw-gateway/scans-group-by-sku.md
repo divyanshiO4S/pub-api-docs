@@ -20,6 +20,10 @@
 
 ```
 authToken: eyJhbGciOiJIUzIR5cCI6IkpXVCJ9.eyJsZXZlbCI6NSwidTUVSIiwicGhvbmVOdW1iZXIiOiIrMTIzNDg3ODkxMjM3IiwiZGV2aWNlSWQiOiI1NThkZjU3MC04NjkzLTRmOTItYWYTZmMTE3NzIzMjgifQ.3PxZeKO3HBrC2ToeGQWWKUgI
+
+accessToken: eyJhbIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6NCicGhvbmVOdW1iZXIiOiIrMTMyNzgxMasjdhjkhde33M3OTgiLCJkZXZpY2VJZCI6Ik5hdmlzaW9uIn0.Gogge1r4YSi3QETUt79BBihqE
+
+Content-Type: application/json
 ```
 
 # Response
