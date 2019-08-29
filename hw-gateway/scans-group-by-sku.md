@@ -12,9 +12,11 @@
 
 # Request
 
-### Method: GET
+### URL staging: https://devserver.supplytics.com//hw-gateway/scans/group-by-sku/
 
-### URL http://localhost:3001/supplytics/scans/group-by-sku
+### URL prod: https://app.original4sure.com//hw-gateway/scans/group-by-sku/
+
+#### Method : **GET**
 
 ### Headers:
 
