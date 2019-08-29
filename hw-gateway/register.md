@@ -14,7 +14,8 @@
 
 ---
 
-### URL : https://localhost:3001/honeywell/user/register
+### URL staging : https://devserver.supplytics.com/hw-gateway/user/register
+### URL prod : https://app.original4sure.com/hw-gateway/user/register
 
 #### Method : **POST**
 

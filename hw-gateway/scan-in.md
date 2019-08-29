@@ -12,7 +12,9 @@
 
 # Request
 
-### URL: http://localhost:3001/supplytics/products/scanin
+
+### URL staging: https://devserver.supplytics.com/hw-gateway/products/scanin
+### URL prod: https://app.original4sure.com/hw-gateway/products/scanin
 
 ### Headers:
 

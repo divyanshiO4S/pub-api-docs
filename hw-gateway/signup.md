@@ -14,7 +14,9 @@
 
 ---
 
-### URL : https://localhost:3001/honeywell/user/create-user
+
+### URL staging : https://devserver.supplytics.com/hw-gateway/user/create-user
+### URL prod : https://app.original4sure.com/hw-gateway/user/create-user
 
 #### Method : **POST**
 
