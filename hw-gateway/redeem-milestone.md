@@ -32,7 +32,8 @@ Content-Type: application/json
 
 ```json
 {
-  "rewardCode": "RC-2C7E7"
+  "rewardCode": "RC-2C7E7",
+  "product" : "https://dev-o4s.in/v/e/1.1.84t_IN.F"
 }
 ```
 
