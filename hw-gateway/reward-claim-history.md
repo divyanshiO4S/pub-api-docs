@@ -39,7 +39,8 @@ Content-Type: application/json
         "code": "genetron-r-407c",
         "name": "Genetron R 407C",
       },
-      "companyName": "John Contractor"
+      "claimId": "RC-2F754",
+      "companyName": "John Contractor",
       "timestamp": 1544692724327
     }
   ] 
