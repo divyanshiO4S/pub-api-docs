@@ -13,8 +13,8 @@
 # Request
 
 
-### URL staging: https://devserver.supplytics.com/hw-gateway/reward/claim/history?pageSize=10&pageNumber=0
-### URL prod: https://app.original4sure.com/hw-gateway/reward/claim/history?pageSize=10&pageNumber=0
+### URL staging: https://devserver.supplytics.com/hw-gateway/reward/fulfilment/history?pageSize=10&pageNumber=0
+### URL prod: https://app.original4sure.com/hw-gateway/reward/fulfilment/history?pageSize=10&pageNumber=0
 
 #### Method : **GET**
 
