@@ -46,7 +46,8 @@ Content-Type: application/json
             "isClaimable": false,
             "rewardCode": "RC-2C7E7",
           }
-        }
+        },
+        "timestamp": 1544692724327
       },
       {
         "sku": {
@@ -59,7 +60,8 @@ Content-Type: application/json
             "isClaimable": true,
             "rewardCode": "RC-2C7E8",
           }
-        }
+        },
+        "timestamp": 1544692724320
       }
     ]
   }
